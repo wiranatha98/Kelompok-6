@@ -18,6 +18,7 @@ import java.util.Calendar;
 public class MainActivity extends AppCompatActivity {
 
 
+    String nama;
     Button buton;
     EditText editText;
     TextView hello;
@@ -27,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         editText = findViewById(R.id.editText);
         buton = findViewById(R.id.button);
         hello = findViewById(R.id.hello);
